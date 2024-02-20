@@ -7,6 +7,7 @@ public class ApiTest {
 
     @Test
     public void test_BeanFactory() {
+
         BeanFactory beanFactory = new BeanFactory();
 
         BeanDefinition beanDefinition = new BeanDefinition(new UserService());
